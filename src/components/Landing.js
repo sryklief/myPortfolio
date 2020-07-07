@@ -23,7 +23,7 @@ class Landing extends Component {
                             <p>HTML/CSS  |  Boostrap  |  JavaScript  |  Python  |  React  |  NodeJS  |  MongoDB</p>
                             <div className="social-links">
 
-                                <a href="http://google.com" rel="noopener noneferrer" target="_blank">
+                                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" rel="noopener noneferrer" target="_blank">
                                     <i className="fa fa-linkedin-square"  aria-hidden="true " />
                                 </a>
 

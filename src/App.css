@@ -16,17 +16,15 @@ background: linear-gradient(to right, #434343, #000000);
 }
 .projects-grid {
   display: flex;
-  height: 100%;
-  width: 100%;
   padding-top: 2rem;
+  background-size: cover;
 }
 
 .react-page {
 
-  background: rgb(167, 166, 166);
+  background-color: rgb(46, 46, 46);
   padding-bottom: 15rem;
-  height: 100%;
-  width: 100%;
+  background-size: cover;
 }
 
 .resume-page {
@@ -44,6 +42,10 @@ background: linear-gradient(to right, #434343, #000000);
   background: rgb(167, 166, 166);
   width: 100%;
   height: 100%;
+}
+
+.test-head {
+  text-align: center;
 }
 
 .contact-body {
@@ -67,7 +69,7 @@ background: linear-gradient(to right, #434343, #000000);
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 400px;
   background: rgb(167, 166, 166);
   color: black;
   border: 7px black;
@@ -76,7 +78,7 @@ background: linear-gradient(to right, #434343, #000000);
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .contact-grid p {

@@ -15,8 +15,6 @@ class Contact extends Component {
                           className="pic-of-me"
                           style={{height: '250px'}}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Contrary to popular belief, Lorem Ipsum is 
-                        not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -25,12 +23,12 @@ class Contact extends Component {
                         <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Bebas Neue', paddingLeft: '1.5em'}}>
                                     <i className='fa fa-phone-square' aria-hidden='true'/>
                                     081-503-3058
                                 </ListItemContent>
                             </ListItem>
-                            <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', paddingRight: '1em'}}>
+                            <ListItemContent style={{fontSize: '30px', fontFamily: 'Bebas Neue'}}>
                                     <i className='fa fa-envelope' aria-hidden='true'/>
                                     saadiqcode@gmail.com
                                 </ListItemContent>

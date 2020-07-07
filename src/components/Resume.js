@@ -24,8 +24,6 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>M.Saadiq Ryklief</h2>
             <h4 style={{color: 'rgb(46, 46, 46)'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p>15 Dien Street Grassy Park, 7941</p>
             <h5>Phone</h5>
@@ -48,7 +46,7 @@ class Resume extends Component {
                  startYear={2017}
                  endYear={2018}
                  schoolName="False Bay TVET College"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                 schoolDescription="Studied Fitting and Turning till N2"
                
                 />
                 <hr style={{borderTop: '3px solid #e22947'}} />
@@ -59,38 +57,44 @@ class Resume extends Component {
               startYear={2019}
               endYear={2019}
               jobName="Semi Skilled Pipe Fitter"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              jobDescription="My resposibilities were cutting and prepping material for installation."
               />
 
               <Experience
                 startYear={2019}
                 endYear={2019}
                 jobName="Events"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobDescription="Work for Gelileo, My job setting up and taking down aswell assisting with the running of the event."
                 />
                 <Experience
                 startYear={2019}
                 endYear={2019}
-                jobName="Promo"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobName="Events"
+                jobDescription="Work for Take Note SA, My job setting up and taking down aswell assisting with the running of the event."
+                />
+                <Experience
+                startYear={2019}
+                endYear={2019}
+                jobName="Promotional"
+                jobDescription="Promoting brands for isiLumko."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={50}
+                progress={40}
                 />
                 <Skills
                   skill="HTML/CSS"
-                  progress={85}
+                  progress={70}
                   />
                   <Skills
                     skill="Python"
-                    progress={60}
+                    progress={45}
                     />
                     <Skills
                       skill="React"
-                      progress={55}
+                      progress={40}
                       />
 
 
